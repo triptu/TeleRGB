@@ -9,7 +9,7 @@ board.pinMode(10, OUTPUT)
 board.pinMode(11, OUTPUT)
 
 
-myToken="179796966:AAH3vfpec7F4jrb21RRQvfc9EOUqvJzJ_xM"
+myToken="<Your toke here>"
 
 def initial(bot, update):
     msg=update.message
