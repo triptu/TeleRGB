@@ -1,4 +1,4 @@
-This is a simple working project to demonstrate linking Telegram Bot to IOT devices/arduino etc. via a Python bridge.
+This is a simple working project to demonstrate linking Telegram Bot to arduino via a Python bridge. [Ardupy](https://github.com/tushutripathi/ardupy) is used to interface between Python and Arduino which allows Python to interact with Arduino which further interacts with the connected device.
 
 # TeleRGB
 Control on/off state and color of a RGB LED using Telegram Messenger. You can set any color in HTML/CSS color definitions. You can also send RGB values.
