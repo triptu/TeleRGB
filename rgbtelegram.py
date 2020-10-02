@@ -14,13 +14,13 @@ myToken="<Your token here>"
 def initial(bot, update):
     msg=update.message
     s=msg.text
-    print s
+    print(s)
     bot.sendmessage(msg.chat_id, text="Type color to make LED glow.")
 
 def control(bot,update):
     msg=update.message
     s= msg.text
-    print s
+    print(s)
     reply= rgb(board,s)
     bot.sendMessage(msg.chat_id, text=reply)
 
